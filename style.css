@@ -80,6 +80,7 @@ body {
     height: 6px;
     border-radius: 16px;
     position: relative;
+    margin-left: 1px;
 }
 
 .progress-bar:hover .progress {
