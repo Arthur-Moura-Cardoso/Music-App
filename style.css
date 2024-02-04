@@ -1,5 +1,5 @@
 body {
-    margin-top: 3em;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,6 +189,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        min-height: auto;
+        margin-top: 3em;
+    }
+
     .music-name {
         text-align: center;
         margin-bottom: 6px;
