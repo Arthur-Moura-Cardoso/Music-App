@@ -197,6 +197,7 @@ body {
     .music-name {
         text-align: center;
         margin-bottom: 6px;
+        min-height: 50px;
     }
 
     .music-box {
