@@ -25,16 +25,16 @@
         </div>
         <audio class="music" src=""></audio>
         <div class="buttons">
-            <button class="prev-button"><img src="assets/img/prev.png" alt=""></button>
-            <button class="play-button play"><img src="assets/img/play.png" alt=""></button>
-            <button class="next-button"><img src="assets/img/next.png" alt=""></button>
+            <button class="prev-button" aria-label="tocar musica anterior"><img src="assets/img/prev.png" alt=""></button>
+            <button class="play-button play" aria-label="pausar ou retomar musica"><img src="assets/img/play.png" alt=""></button>
+            <button class="next-button" aria-label="tocar musica seguinte"><img src="assets/img/next.png" alt=""></button>
         </div>
         <div class="volume-box">
             <span data-tooltip="Mudo" data-flow="left">
-                <img  src="assets/img/volume.png" alt="" class="volume-icon">
+                <img src="assets/img/volume.png" class="volume-icon">
             </span>
             <div class="volume-bar">
-                <input type="range" max="100" min="0" value="100" class="volume-progress">
+                <input type="range" max="100" min="0" value="100" aria-label="barra controladora de volume" class="volume-progress">
             </div>
         </div>
     </div>
