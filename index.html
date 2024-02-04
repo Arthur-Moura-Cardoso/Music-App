@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs About Jane</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-box">
+        <img class="album-img" src="" alt="">
+        <h2 class="music-name">Nome da Musica</h2>
+        <h3 class="artist-name">artista</h3>
+        <div class="controls">
+            <div class="progress-bar">
+                <span class="progress"></span>
+            </div>
+            <div class="time">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">00:00</span>
+            </div>
+        </div>
+        <audio class="music" src=""></audio>
+        <div class="buttons">
+            <button class="prev-button"><img src="assets/img/prev.png" alt=""></button>
+            <button class="play-button play"><img src="assets/img/play.png" alt=""></button>
+            <button class="next-button"><img src="assets/img/next.png" alt=""></button>
+        </div>
+        <div class="volume-box">
+            <span data-tooltip="Mudo" data-flow="left">
+                <img  src="assets/img/volume.png" alt="" class="volume-icon">
+            </span>
+            <div class="volume-bar">
+                <input type="range" max="100" min="0" value="100" class="volume-progress">
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="module" src="main.js"></script>
+</html>
